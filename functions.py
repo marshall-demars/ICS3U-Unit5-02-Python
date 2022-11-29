@@ -14,6 +14,8 @@ def area(base, height):
     # Output
     print("\nThe area of the triangle is {0} cm².".format(area))
 
+    print("\nDone.")
+
 
 def main():
     # This function gets user inputs and does try catch
@@ -24,8 +26,6 @@ def main():
     try:
         base_as_int = int(base_as_string)
         height_as_int = int(height_as_string)
-
-        print("\nDone.")
 
         # Call functions
         area(base_as_int, height_as_int)
