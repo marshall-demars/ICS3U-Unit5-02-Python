@@ -22,7 +22,7 @@ def main():
 
     # Input
     base_as_string = input("Enter the base length of the triangle (cm): ")
-    height_as_string = input("Enter the base length of the triangle (cm): ")
+    height_as_string = input("Enter the height of the triangle (cm): ")
     try:
         base_as_int = int(base_as_string)
         height_as_int = int(height_as_string)
